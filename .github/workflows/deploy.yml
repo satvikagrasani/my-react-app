@@ -34,4 +34,4 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
           source: "dist/*"
-          target: "/var/www/html"
+          target: "/var/www/my-react-app/dist"
